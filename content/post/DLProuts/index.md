@@ -204,7 +204,7 @@ Adam自适应学习率（Adaptive Learning Rate）。为每个参数动态调整
 
 #### 4.1 MNIST数据集分类
 
-[Google Colab](https://colab.research.google.com/drive/13ABrD6OwrTZtLgOGNxc4Kej--n6Hocss)
+[[week2_1LeNet 对 MNIST 数据集分类.ipynb - Colab](https://colab.research.google.com/drive/1y16jNY6H4mwEVV7J1wzimAjxkX-1njPW)]
 
 该代码实现了一个对比实验，探究卷积神经网络（CNN）与全连接神经网络（FCN/MLP）对图像空间结构的不同依赖程度。
 实验流程共分为五个主要步骤：
@@ -244,6 +244,26 @@ Adam自适应学习率（Adaptive Learning Rate）。为每个参数动态调整
        实现现象：
        FCN：性能基本保持不变。因为 FCN 无论是否打乱，都是将输入视为独立特征的一维向量，不依赖像素的空间位置。
        CNN：性能显著下降。因为像素打乱破坏了图像的局部特征（Locality），导致卷积核无法提取有效的几何特征（如线条、轮廓），使其退化为效率低下的特征提取器。
+
+
+
+#### 4.2 使用参数接近的MLP和CNN分别对MNIST数据集分类
+
+[[week2_2CNN对MINIST数据集分类.ipynb - Colab](https://colab.research.google.com/drive/13ABrD6OwrTZtLgOGNxc4Kej--n6Hocss#scrollTo=zrpBL-Tsjhdv)]
+
+
+
+#### 4.3 使用VGG对CIFAR10分类
+
+[[week2_3VGG对CIFAR10分类.ipynb - Colab](https://colab.research.google.com/drive/1A2x9knqQZCPTzDG2jCNL3Vm9qR7otcLo#scrollTo=SS7-ORbmG6Tu)]
+
+
+
+#### 4.4 ResNet18对CIFAR10分类
+
+[[week2_4ResNet18对CIFAR10分类.ipynb - Colab](https://colab.research.google.com/drive/1LcioYsdYw0CfGrc1dlmmMz40eVMVW-oU#scrollTo=X1OMjjSGKUiB)]
+
+
 
 
 

@@ -297,8 +297,8 @@
 &lt;/ol&gt;
 &lt;h3 id="part2代码练习"&gt;Part2:代码练习
 &lt;/h3&gt;&lt;h4 id="41-mnist数据集分类"&gt;4.1 MNIST数据集分类
-&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="https://colab.research.google.com/drive/13ABrD6OwrTZtLgOGNxc4Kej--n6Hocss" target="_blank" rel="noopener"
-&gt;Google Colab&lt;/a&gt;&lt;/p&gt;
+&lt;/h4&gt;&lt;p&gt;[&lt;a class="link" href="https://colab.research.google.com/drive/1y16jNY6H4mwEVV7J1wzimAjxkX-1njPW" target="_blank" rel="noopener"
+&gt;week2_1LeNet 对 MNIST 数据集分类.ipynb - Colab&lt;/a&gt;]&lt;/p&gt;
 &lt;p&gt;该代码实现了一个对比实验，探究卷积神经网络（CNN）与全连接神经网络（FCN/MLP）对图像空间结构的不同依赖程度。
 实验流程共分为五个主要步骤：&lt;/p&gt;
 &lt;ol&gt;
@@ -343,6 +343,15 @@ FCN：性能基本保持不变。因为 FCN 无论是否打乱，都是将输入
 CNN：性能显著下降。因为像素打乱破坏了图像的局部特征（Locality），导致卷积核无法提取有效的几何特征（如线条、轮廓），使其退化为效率低下的特征提取器。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h4 id="42-使用参数接近的mlp和cnn分别对mnist数据集分类"&gt;4.2 使用参数接近的MLP和CNN分别对MNIST数据集分类
+&lt;/h4&gt;&lt;p&gt;[&lt;a class="link" href="https://colab.research.google.com/drive/13ABrD6OwrTZtLgOGNxc4Kej--n6Hocss#scrollTo=zrpBL-Tsjhdv" target="_blank" rel="noopener"
+&gt;week2_2CNN对MINIST数据集分类.ipynb - Colab&lt;/a&gt;]&lt;/p&gt;
+&lt;h4 id="43-使用vgg对cifar10分类"&gt;4.3 使用VGG对CIFAR10分类
+&lt;/h4&gt;&lt;p&gt;[&lt;a class="link" href="https://colab.research.google.com/drive/1A2x9knqQZCPTzDG2jCNL3Vm9qR7otcLo#scrollTo=SS7-ORbmG6Tu" target="_blank" rel="noopener"
+&gt;week2_3VGG对CIFAR10分类.ipynb - Colab&lt;/a&gt;]&lt;/p&gt;
+&lt;h4 id="44-resnet18对cifar10分类"&gt;4.4 ResNet18对CIFAR10分类
+&lt;/h4&gt;&lt;p&gt;[&lt;a class="link" href="https://colab.research.google.com/drive/1LcioYsdYw0CfGrc1dlmmMz40eVMVW-oU#scrollTo=X1OMjjSGKUiB" target="_blank" rel="noopener"
+&gt;week2_4ResNet18对CIFAR10分类.ipynb - Colab&lt;/a&gt;]&lt;/p&gt;
 &lt;h3 id="part3问题总结"&gt;Part3:问题总结
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -406,7 +415,7 @@ shuffle=False：
 &lt;/h2&gt;&lt;p&gt;&lt;img src="https://littleduck520.github.io/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash.jpg"
 width="667"
 height="1000"
-srcset="https://littleduck520.github.io/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu_e98fca2b4272416e.jpg 480w, https://littleduck520.github.io/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu_e3d37c9ded115b12.jpg 1024w"
+srcset="https://littleduck520.github.io/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu_7b8a06820e6d5c.jpg 480w, https://littleduck520.github.io/p/test-chinese/florian-klauer-nptLmg6jqDo-unsplash_hu_a347f10e565b40ff.jpg 1024w"
 loading="lazy"
 alt="Photo by Florian Klauer on Unsplash"
 class="gallery-image"
@@ -415,7 +424,7 @@ data-flex-basis="160px"
 &gt; &lt;img src="https://littleduck520.github.io/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash.jpg"
 width="1000"
 height="667"
-srcset="https://littleduck520.github.io/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu_e13c58d5189f892c.jpg 480w, https://littleduck520.github.io/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu_8fc948b7ee525251.jpg 1024w"
+srcset="https://littleduck520.github.io/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu_258fc4da0cfc7de9.jpg 480w, https://littleduck520.github.io/p/test-chinese/luca-bravo-alS7ewQ41M8-unsplash_hu_d415bcea096fe061.jpg 1024w"
 loading="lazy"
 alt="Photo by Luca Bravo on Unsplash"
 class="gallery-image"
@@ -425,7 +434,7 @@ data-flex-basis="359px"
 &lt;p&gt;&lt;img src="https://littleduck520.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg"
 width="1000"
 height="750"
-srcset="https://littleduck520.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu_503c0ebcc5245e10.jpg 480w, https://littleduck520.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu_48c98de55fb3c999.jpg 1024w"
+srcset="https://littleduck520.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu_dfbb0c559c3df461.jpg 480w, https://littleduck520.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash_hu_212d0718b8e99eaa.jpg 1024w"
 loading="lazy"
 alt="Photo by Helena Hertz on Unsplash"
 class="gallery-image"
@@ -434,7 +443,7 @@ data-flex-basis="320px"
 &gt; &lt;img src="https://littleduck520.github.io/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
 width="667"
 height="1000"
-srcset="https://littleduck520.github.io/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hu_f81a3588c5c4a663.jpg 480w, https://littleduck520.github.io/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hu_1c52ba2a4ad7b9a0.jpg 1024w"
+srcset="https://littleduck520.github.io/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hu_41819e288bf4a8c0.jpg 480w, https://littleduck520.github.io/p/test-chinese/hudai-gayiran-3Od_VKcDEAA-unsplash_hu_1277885c87f69490.jpg 1024w"
 loading="lazy"
 alt="Photo by Hudai Gayiran on Unsplash"
 class="gallery-image"
@@ -618,7 +627,7 @@ data-flex-basis="160px"
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;- features = [&amp;#34;dynamic&amp;#34;]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gd"&gt;&lt;/span&gt;&lt;span class="gi"&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gi"&gt;+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="list-types"&gt;List Types
